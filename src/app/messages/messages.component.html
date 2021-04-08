@@ -1,6 +1,6 @@
 <div *ngIf="messageService.messages.length">
 
-    <h2>Cronologia</h2>
+    <h2>Cronologia messaggi</h2>
     <button class="clear"
             (click)="messageService.clear()">Cancella i messaggi</button>
     <div *ngFor='let message of messageService.messages'> {{message}} </div>
